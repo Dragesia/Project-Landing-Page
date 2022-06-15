@@ -127,6 +127,7 @@ body {
 .pop {
     background-color: #3882f6;
     display: flex;
+    border-radius: 15px;
 }
 
 .texts {
@@ -144,5 +145,8 @@ body {
 .footer {
     background-color: #1F2937;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
