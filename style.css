@@ -11,6 +11,24 @@ body {
 .header {
     background-color: #1F2937;
     width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
 }
 
 .welcome {
@@ -34,3 +52,4 @@ body {
     background-color: #1F2937;
     width: 100vw;
 }
+
