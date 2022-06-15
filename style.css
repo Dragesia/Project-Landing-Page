@@ -18,12 +18,16 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin: 15px;
+    margin-bottom: 85px;
 }
 
 .header a {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+    margin: 15px;
+    display: block;
 }
 
 .header ul {
@@ -35,11 +39,16 @@ body {
     background-color: #1F2937;
     width: 100vw;
     display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 100px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
+    gap: 15px;
+    justify-content: center;
 }
 
 .content h1 {
@@ -59,17 +68,31 @@ body {
     outline: 0;
     color: white;
     font-size: 18px;
+    border-radius: 15px;
+    width: 100px;
+    padding: 15px;
 }
 
 .photo {
     background-color: #4a6285;
     color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 500px;
 }
 
 .infos {
     width: 100vw;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 50px;
 }
 
 .infos h1 {
@@ -80,12 +103,15 @@ body {
 
 .cards {
     display: flex;
+    gap: 50px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     width: 175px;
+    text-align: center;
+    align-items: center;
 }
 
 .box {
@@ -96,6 +122,8 @@ body {
 }
 
 .quote {
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #E5E7EB;
     width: 100vw;
     display: flex;
@@ -107,6 +135,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    max-width: 750px;
 }
 
 .quote-cont p {
@@ -122,24 +151,37 @@ body {
 
 .sign-up {
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .pop {
     background-color: #3882f6;
     display: flex;
     border-radius: 15px;
+    width: 1000px;
+    justify-content: center;
+    padding: 70px;
+    gap: 300px;
 }
 
 .texts {
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 .sign-up button {
-    border: 1px white solid;
+    border: 3px white solid;
     border-radius: 15px;
     background-color: #3882f6;
     outline: 0;
+    color: white;
+    width: 150px;
+    font-size: 24px;
 }
 
 .footer {
@@ -148,5 +190,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
