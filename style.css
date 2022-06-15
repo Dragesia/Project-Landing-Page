@@ -78,8 +78,46 @@ body {
     color: #1f2937;
 }
 
+.cards {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+}
+
+.box {
+    border: 5px #3882f6 solid;
+    border-radius: 10px;
+    height: 175px;
+    width: 175px;
+}
+
 .quote {
+    background-color: #E5E7EB;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote-cont p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-cont h1 {
+    font-size: 24px;
 }
 
 .sign-up {
