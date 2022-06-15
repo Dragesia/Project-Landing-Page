@@ -124,6 +124,23 @@ body {
     width: 100vw;
 }
 
+.pop {
+    background-color: #3882f6;
+    display: flex;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up button {
+    border: 1px white solid;
+    border-radius: 15px;
+    background-color: #3882f6;
+    outline: 0;
+}
+
 .footer {
     background-color: #1F2937;
     width: 100vw;
