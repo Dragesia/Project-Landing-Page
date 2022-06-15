@@ -34,10 +34,48 @@ body {
 .welcome {
     background-color: #1F2937;
     width: 100vw;
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.content p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content button {
+    background-color: #3882f6;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 18px;
+}
+
+.photo {
+    background-color: #4a6285;
+    color: white;
 }
 
 .infos {
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.infos h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
 .quote {
